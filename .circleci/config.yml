@@ -17,6 +17,7 @@ jobs:
     <<: *dockersettings
     steps:
       - checkout
+      - run: npm i
       - run: npm run test
 
   analyze:
