@@ -24,7 +24,7 @@ jobs:
     <<: *dockersettings
     steps:
       - checkout
-      - run: npm run audit
+      - run: npm audit
       
 workflows:
   # Name the workflow "welcome"
