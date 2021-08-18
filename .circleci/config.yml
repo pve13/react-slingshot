@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run: npm run test
 
-   analyze:
+  analyze:
     <<: *dockersettings
     steps:
       - checkout
